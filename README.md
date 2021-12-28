@@ -1,4 +1,4 @@
-# Super_R-solution_SYS843
+# Super_Resolution_SYS843
 
 Ce dépot contient les codes des méthodes SRCNN, FSRCNN et SRGAN réalisées dans le cadre du projet de super résolution dans le domaine de l'imagerie médicale. 
 pour évaluer les performance de ces modèle nous utilisons le Peak Signal Noise Rase (PSNR)
@@ -12,6 +12,8 @@ pour évaluer les performance de ces modèle nous utilisons le Peak Signal Noise
  seules trois couches de structure de réseau neuronal sont utilisées. la structure de ce modèle est illustrée par la figure suivante 
  
  ![image](https://user-images.githubusercontent.com/96759281/147539837-a1143e0d-6712-4e0d-9304-2566f4b5f51c.png)
+
+[paper](https://arxiv.org/pdf/1501.00092.pdf)
 
 ## Requirements
 
