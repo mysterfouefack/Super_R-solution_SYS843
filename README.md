@@ -54,6 +54,37 @@ le modèle FSRCNN est un modèle de reconstruction à super-résolution d'image 
 ![image](https://user-images.githubusercontent.com/96759281/147542914-a206346e-f624-4931-a9e2-18243f5b227a.png)
 
  
+ [[paper](https://arxiv.org/pdf/1608.00367.pdf)][[code](https://github.com/yjn870/FSRCNN-pytorch)]
+
+ # implémentation FSRCNN
  
+ Requirements
+
+    PyTorch 1.0.0
+    Numpy 1.15.4
+    Pillow 5.4.1
+    h5py 2.8.0
+    tqdm 4.30.0
+    
+   1- éxxécuter le fichier prepare.py pour preparer les données préalablement
+   
+   2- entrainement 
+  
+      python train.py --train-file "train_file/image.h5" \
+                --eval-file "eval_file/image.h5" \
+                --outputs-dir "image/outputs" \
+                --scale 4 \
+                --lr 1e-3 \
+                --batch-size 16 \
+                --num-epochs 200 \
+                --num-workers 8 \
+                --seed 123    
+    3- Test 
+   
+   
+        python test.py --weights-file "dir/srcnn.pth" \
+                     --image-file "data/img.bmp" \
+                     --scale 4
+
  
  
