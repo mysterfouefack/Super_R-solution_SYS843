@@ -3,7 +3,14 @@
 Ce dépot contient les codes des méthodes SRCNN, FSRCNN et SRGAN réalisées dans le cadre du projet de super résolution dans le domaine de l'imagerie médicale
 
 
- # Requirements
+ # SRCNN 
+ 
+ Super Resolution Convolutional Neural Networks
+ 
+ Le modèle srcnn est un modèle de reconstruction à super-résolution d'image unique basé sur un réseau de neurones convolutifs. La structure du modèle est très simple, 
+ seules trois couches de structure de réseau neuronal sont utilisées. 
+ ![image](https://user-images.githubusercontent.com/96759281/147539837-a1143e0d-6712-4e0d-9304-2566f4b5f51c.png)
+
 
     PyTorch 1.0.0
     Numpy 1.15.4
