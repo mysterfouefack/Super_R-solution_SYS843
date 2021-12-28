@@ -27,6 +27,7 @@ pour évaluer les performance de ces modèle nous utilisons le Peak Signal Noise
     
    1- éxxécuter le fichier prepare.py pour preparer les données préalablement
    2- entrainement 
+   #
       python train.py --train-file "train_file/image.h5" \
                 --eval-file "eval_file/image.h5" \
                 --outputs-dir "image/outputs" \
@@ -37,6 +38,7 @@ pour évaluer les performance de ces modèle nous utilisons le Peak Signal Noise
                 --num-workers 8 \
                 --seed 123    
     3- Test 
+    #
         python test.py --weights-file "dir/srcnn.pth" \
                      --image-file "data/img.bmp" \
                      --scale 4
