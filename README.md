@@ -86,5 +86,24 @@ le modèle FSRCNN est un modèle de reconstruction à super-résolution d'image 
                      --image-file "data/img.bmp" \
                      --scale 4
 
- 
- 
+
+# SRGAN
+
+Super Resolution Generative Adversarial Network
+
+le modèle SRGAN est un modèle de reconstruction à super-résolution d'image basé sur un réseau GAN. la structure du modèle est illustrée par la figure suivante
+
+![image](https://user-images.githubusercontent.com/96759281/147543777-db5ad156-6540-4720-8e09-83cfe6494491.png)
+
+[[paper](https://arxiv.org/pdf/1609.04802.pdf)][[code](https://github.com/tensorlayer/srgan)]
+
+#
+
+
+    1: entrainement 
+
+python train.py
+
+    2: evaluation.
+
+python train.py --mode=evaluate 
