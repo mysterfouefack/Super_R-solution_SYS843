@@ -27,7 +27,7 @@ pour évaluer les performance de ces modèle nous utilisons le Peak Signal Noise
     
    1- éxxécuter le fichier prepare.py pour preparer les données préalablement
    
-  #2- entrainement 
+   2- entrainement 
   
       python train.py --train-file "train_file/image.h5" \
                 --eval-file "eval_file/image.h5" \
@@ -44,3 +44,16 @@ pour évaluer les performance de ces modèle nous utilisons le Peak Signal Noise
         python test.py --weights-file "dir/srcnn.pth" \
                      --image-file "data/img.bmp" \
                      --scale 4
+
+# FSRCNN 
+ 
+ Fast Super Resolution Convolutional Neural Networks
+ 
+le modèle FSRCNN est un modèle de reconstruction à super-résolution d'image unique basé sur un réseau de neurones convolutifs. la structure de ce modèle est illustrée par la figure suivante 
+
+![image](https://user-images.githubusercontent.com/96759281/147542914-a206346e-f624-4931-a9e2-18243f5b227a.png)
+
+ 
+ 
+ 
+ 
